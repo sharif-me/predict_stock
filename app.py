@@ -11,7 +11,7 @@ from PIL import Image
 import yfinance as yf
 st.title("AIで株価予測アプリ")
 st.write('AIを使って、株価を予測してみましょう。')
-image = Image.open('FinTech/ai.png')
+image = Image.open('ai.png')
 st.image(image, use_container_width=True)
 st.write('あくまでAIによる予測です(参考値)。こちらのアプリによる損害や損失は一切補償しかねます。')
 
@@ -125,5 +125,6 @@ except Exception as e:
     st.error(f'エラーが発生しました: {str(e)}')
     import traceback
     st.code(traceback.format_exe())
-st.write('copyright © 2021 Hossen Mohammad Sharif All Rights Reserved')    
+st.write('copyright © 2021 Sharif All Rights Reserved')    
+   
     
