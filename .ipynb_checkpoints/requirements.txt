@@ -1,0 +1,10 @@
+altair
+matplotlib
+numpy
+pandas
+Pillow
+plotly
+scipy
+scikit_learn
+streamlit>=1.41.0
+yfinance
